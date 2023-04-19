@@ -1,4 +1,19 @@
 
+
+.card {
+    margin: 0 auto;
+    width: 240px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
