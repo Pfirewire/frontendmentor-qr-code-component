@@ -1,9 +1,10 @@
 :root {
-    --background-color: rgb(215, 225, 238);
+    --background-color: hsl(212, 45%, 89%)
 }
 
 * {
     box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
 }
 
 img {
@@ -35,15 +36,22 @@ body {
     background-color: white;
     margin: 0 auto;
     padding: 1rem;
-    width: 240px;
-    border-radius: 10px;
+    width: 270px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
 .card-img {
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.card-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .card-text {
@@ -55,6 +63,9 @@ body {
     font-size: large;
 }
 
+.card-content {
+    font-size: small;
+}
 
 .attribution {
     font-size: 11px;
